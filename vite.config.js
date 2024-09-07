@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/BPR-Cahaya-Bina-Putra/'
+  base: '/BPR-Bina-Putra/'
 })
