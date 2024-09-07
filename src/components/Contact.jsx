@@ -45,7 +45,7 @@ const Contact = () => {
     setSubmitMessage('');
 
     try {
-      const response = await axios.post('http://localhost:3000/api/feedback', { email, message });
+      const response = await axios.post('https://cbp-backend-production.up.railway.app/api/feedback', { email, message });
       console.log(response.data);
       setSubmitMessage('Terima kasih! Feedback Anda telah berhasil dikirim dan sangat kami hargai.');
       setEmail('');

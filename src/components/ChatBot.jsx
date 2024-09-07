@@ -33,7 +33,7 @@ const ChatBot = () => {
       setInput('');
 
       try {
-        const response = await axios.post('http://localhost:3000/api/chatbot', { message });
+        const response = await axios.post('https://cbp-backend-production.up.railway.app/api/chatbot', { message });
         const botMessage = { text: response.data.reply, user: false };
         setMessages(msgs => [...msgs, botMessage]);
       } catch (error) {

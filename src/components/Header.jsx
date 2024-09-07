@@ -36,7 +36,7 @@ const Header = () => {
   const handleSearch = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.get(`http://localhost:3000/api/search?q=${searchQuery}`);
+      const response = await axios.get(`https://cbp-backend-production.up.railway.app/api/search?q=${searchQuery}`);
       navigate('/search-results', { state: { results: response.data } });
     } catch (error) {
       console.error("Error performing search:", error);
