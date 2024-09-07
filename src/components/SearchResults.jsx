@@ -8,7 +8,7 @@ const SearchResults = () => {
   const location = useLocation();
   const results = location.state?.results || [];
 
-  console.log("Results from Location:", results);
+  
   const getIcon = (type) => {
     switch (type) {
       case 'credit': return <FaCreditCard className="text-teal-600" />;
