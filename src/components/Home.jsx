@@ -102,6 +102,10 @@ const Home = () => {
 
   return (
     <Layout>
+       <Helmet>
+        <title>BPR Cahaya Bina Putra - Beranda</title>
+        <meta name="description" content="Selamat datang di BPR Cahaya Bina Putra. Kami menyediakan layanan perbankan terpercaya untuk memenuhi kebutuhan finansial Anda." />
+      </Helmet>
              {/* Hero Section */}
       <div className="relative w-full overflow-hidden mt-20 sm:mt-20 lg:mt-18">
         <div className="w-full" style={{ paddingTop: 'calc(701 / 1512 * 100%)' }}>
@@ -146,7 +150,6 @@ const Home = () => {
           ))}
         </div>
       </div>
-
 
 
 
