@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import {HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -14,6 +14,7 @@ import ChatBot from './components/ChatBot';
 
 function App() {
   return (
+    <HashRouter>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
@@ -27,6 +28,7 @@ function App() {
       <Route path="/search-results" element={<SearchResults />} />
       <Route path="/Chatbot" element={<ChatBot />} />
     </Routes>
+      </HashRouter>
   );
 }
 
