@@ -1,9 +1,9 @@
 import React from "react";
 import Layout from "./Layout";
 import savingsImage from '../assets/tabungan.png';
-import Tabungan_berjangka from '../assets/tabungan_berjangka.png';
-import Tabungan_CBP from '../assets/tabungan_CBP.png';
-import Tabungan_Sibulan from '../assets/tabungan_Sibulan.png';
+import Tabungan_berjangka from '../assets/Tabungan_berjangka.png';
+import Tabungan_CBP from '../assets/Tabungan_CBP.png';
+import Tabungan_Sibulan from '../assets/Tabungan_Sibulan.png';
 import { GoArrowRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
