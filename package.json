@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://CahayaBinaPutra.github.io/BPR-Cahaya-Bina-Putra",
+  "homepage": "https://CahayaBinaPutra.github.io/Cahaya-Bina-Putra",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
