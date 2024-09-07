@@ -33,15 +33,19 @@ const Header = () => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+
   const handleSearch = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.get(`https://cbp-backend-production.up.railway.app/api/search?q=${searchQuery}`);
+      console.log("Search Results:", response.data); // Log data hasil pencarian
       navigate('/search-results', { state: { results: response.data } });
     } catch (error) {
       console.error("Error performing search:", error);
+      // Optional: Tambahkan pemberitahuan kepada pengguna jika diperlukan
     }
   };
+  
 
   const handleMobileNavigation = (path) => {
     console.log("Navigating to:", path);
