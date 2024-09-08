@@ -158,7 +158,7 @@ const DetailCredits = () => {
             </div>
 
             {/* Promo Image (Sticky) */}
-            <div className="lg:w-1/3 mt-10 lg:mt-0">
+            <div className="lg:w-1/3 lg:mt-0">
               <div className="sticky top-24">
                 <motion.div
                   initial={{ opacity: 0, scale: 0.9 }}
