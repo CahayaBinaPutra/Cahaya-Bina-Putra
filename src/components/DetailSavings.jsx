@@ -182,7 +182,7 @@ const DetailSavings = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="text-base sm:text-lg md:text-xl text-gray-700 mb-12 leading-relaxed bg-white p-6 "
+            className="text-base sm:text-lg md:text-xl text-gray-700 mb-10 leading-relaxed bg-white p-6 "
           >
              {savings.description}
           </motion.p>
