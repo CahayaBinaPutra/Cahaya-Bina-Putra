@@ -165,7 +165,7 @@ const DetailSavings = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="relative h-[40vh] sm:h-[50vh] md:h-[60vh] overflow-hidden"
+          className="pt-16 pb-12"
         >
            {/* Hero Section */}
         <div className="relative h-[40vh] sm:h-[50vh] md:h-[60vh] mb-12 overflow-hidden">

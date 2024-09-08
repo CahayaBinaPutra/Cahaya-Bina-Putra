@@ -104,7 +104,7 @@ const DetailDeposits = () => {
         className="pt-16 pb-12"
       >
         {/* Hero Section */}
-        <div className="relative h-[40vh] sm:h-[50vh] mb-8">
+        <div className="relative h-[40vh] sm:h-[50vh] md:h-[60vh] overflow-hidden mb-8">
           <img src={deposit.image} alt={deposit.title} className="w-full h-full object-cover" />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center px-4">{deposit.title}</h1>
