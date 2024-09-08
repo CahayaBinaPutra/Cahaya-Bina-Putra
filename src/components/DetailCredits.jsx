@@ -170,7 +170,7 @@ const DetailCredits = () => {
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-emerald-600 mb-2">Promo Spesial!</h3>
                     <p className="text-gray-600 mb-4">Dapatkan penawaran terbaik untuk produk tabungan kami. Berlaku sampai 31 Desember 2023.</p>
-                    <a href="https://wa.me/6287862109106" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/628123625534" target="_blank" rel="noopener noreferrer">
                     <button className="bg-emerald-600 text-white py-2 px-4 rounded hover:bg-emerald-500 transition duration-300">
                       Hubungi Kami
                     </button>

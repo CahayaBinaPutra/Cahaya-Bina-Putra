@@ -142,7 +142,7 @@ const DetailDeposits = () => {
           <div className="mt-12 bg-gradient-to-r from-teal-600 to-teal-700 rounded-lg p-8 text-center">
             <h3 className="text-2xl font-bold text-white mb-4">Tertarik dengan Produk Deposito Kami?</h3>
             <p className="text-white mb-6">Hubungi kami sekarang untuk informasi lebih lanjut atau untuk membuka deposito Anda.</p>
-            <a href="https://wa.me/6287862109106" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/628123625534" target="_blank" rel="noopener noreferrer">
             <button className="bg-green-400 text-white px-8 py-3 rounded-full hover:bg-green-700 transition duration-300">
               Hubungi Kami
             </button>

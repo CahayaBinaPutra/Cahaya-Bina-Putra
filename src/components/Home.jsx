@@ -272,7 +272,7 @@ const Home = () => {
                 <p className="text-teal-100 font-semibold text-base sm:text-lg mb-2 sm:mb-3">Butuh bantuan lebih lanjut?</p>
                 <h4 className="text-white text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Konsultasikan dengan Ahli Kami</h4>
                 <p className="text-teal-50 text-sm sm:text-base mb-6 sm:mb-8">Tim konsultan berpengalaman kami siap membantu Anda meraih tujuan finansial.</p>
-                <a href="https://wa.me/6287862109106" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/628123625534" target="_blank" rel="noopener noreferrer">
   <button className="bg-white text-teal-800 rounded-full flex items-center py-2 px-6 sm:py-3 sm:px-8 transition-all hover:bg-teal-100 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 shadow-lg text-sm sm:text-base font-semibold mx-auto sm:mx-0">
     <AiFillMessage className="w-5 h-5 sm:w-6 sm:h-6 mr-2 sm:mr-3" />
     <span>Mulai Konsultasi</span>

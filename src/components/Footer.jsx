@@ -75,7 +75,7 @@ const Footer = () => {
               <div className='w-8 h-8 bg-teal-600 flex justify-center items-center rounded-full group-hover:bg-teal-500 transition-colors duration-300'>
                 <AiFillMessage className='text-white' size={18} />
               </div>
-              <a href="https://wa.me/6287862109106" className="text-sm font-light group-hover:text-teal-300 transition-colors duration-300"> 087862109106 </a>
+              <a href="https://wa.me/628123625534" className="text-sm font-light group-hover:text-teal-300 transition-colors duration-300"> 08123625534 </a>
             </motion.div>
           </motion.div>
 

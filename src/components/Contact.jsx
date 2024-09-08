@@ -93,9 +93,9 @@ const Contact = () => {
             <div className="w-full lg:w-1/3 bg-white bg-opacity-90 p-8">
               <h2 className="text-2xl font-bold text-teal-800 mb-6">Hubungi Kami</h2>
               <div className="space-y-4 mb-8">
-                <a href="https://wa.me/6287862109106" className="flex items-center gap-3 text-gray-700 hover:text-teal-600 transition-colors">
+                <a href="https://wa.me/628123625534" className="flex items-center gap-3 text-gray-700 hover:text-teal-600 transition-colors">
                   <IoLogoWhatsapp className="text-green-500" size={24} />
-                  <span>087862109106</span>
+                  <span>08123625534</span>
                 </a>
                 <a href="tel:0361844584" className="flex items-center gap-3 text-gray-700 hover:text-teal-600 transition-colors">
                   <PiPhoneCallFill className="text-teal-500" size={24} />

@@ -219,7 +219,7 @@ const DetailSavings = () => {
           >
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Mulai Menabung untuk Masa Depan Anda!</h3>
             <p className="text-lg sm:text-xl mb-8">Amankan finansial Anda dengan Tabungan kami. Hubungi kami sekarang untuk informasi lebih lanjut.</p>
-            <a href="https://wa.me/6287862109106" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/628123625534" target="_blank" rel="noopener noreferrer">
             <button className="bg-white text-teal-700 px-6 sm:px-8 py-3 rounded-full text-base sm:text-lg font-semibold hover:bg-teal-100 transition duration-300 shadow-md">
               Buka Rekening Sekarang
             </button>
