@@ -168,7 +168,7 @@ const DetailSavings = () => {
           className="pt-16 pb-12"
         >
            {/* Hero Section */}
-        <div className="relative h-[40vh] sm:h-[50vh] md:h-[60vh] mb-12 overflow-hidden">
+        <div className="relative h-[40vh] sm:h-[50vh] md:h-[60vh] mb-5 overflow-hidden">
         <img src={savings.image} alt={savings.slug} className="w-full h-full object-cover" />
           <div className="absolute inset-0 flex items-center justify-center">
           </div>
@@ -182,7 +182,7 @@ const DetailSavings = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="text-base sm:text-lg md:text-xl text-gray-700 mb-5 leading-relaxed bg-white p-6 "
+            className="text-base sm:text-lg md:text-xl text-gray-700 mb-10 leading-relaxed bg-white p-6 "
           >
              {savings.description}
           </motion.p>
@@ -220,7 +220,7 @@ const DetailSavings = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1 }}
-            className="mt-16 bg-gradient-to-r from-teal-600 to-teal-700 rounded-xl p-8 text-center text-white shadow-xl"
+            className="mt-12 bg-gradient-to-r from-teal-600 to-teal-700 rounded-xl p-8 text-center text-white shadow-xl"
           >
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Mulai Menabung untuk Masa Depan Anda!</h3>
             <p className="text-lg sm:text-xl mb-8">Amankan finansial Anda dengan Tabungan kami. Hubungi kami sekarang untuk informasi lebih lanjut.</p>
