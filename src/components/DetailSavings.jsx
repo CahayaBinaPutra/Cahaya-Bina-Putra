@@ -167,7 +167,12 @@ const DetailSavings = () => {
           transition={{ duration: 1 }}
           className="relative h-[40vh] sm:h-[50vh] md:h-[60vh] overflow-hidden"
         >
-          <img src={savings.image} alt={savings.slug} className="w-full h-full object-cover" />
+           {/* Hero Section */}
+        <div className="relative h-[40vh] sm:h-[50vh] md:h-[60vh] mb-12 overflow-hidden">
+        <img src={savings.image} alt={savings.slug} className="w-full h-full object-cover" />
+          <div className="absolute inset-0 flex items-center justify-center">
+          </div>
+        </div>
           
         </motion.div>
 
